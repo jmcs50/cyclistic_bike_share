@@ -2,8 +2,6 @@
 
 ## How do annual members and casual riders use Cyclistic bikes differently?
 
-## How do annual members and casual riders use Cyclistic bikes differently?
-
 
 #### 1. Business task
 Analyze how casual riders are using Cyclistic services to provide visual media opportunities that will influence these riders to become members.
