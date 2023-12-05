@@ -79,7 +79,7 @@ Data is combined and organized into columns.
 Data has been properly formatted with column data types corrected to match field values.
 
 **● What surprises did you discover in the data?** 
-The type of data was missing or incorrect. For example the start date of trips beginning after the end dates. I did not expect to see negative values.\
+The type of data was missing or incorrect. For example the start date of trips beginning after the end dates. I did not expect to see negative values.
 
 **● What trends or relationships did you find in the data?** 
 I found that both casual and member riders favor the summer months, 5 pm as their main activity time and Electric bicycles.
