@@ -107,6 +107,8 @@ Data Visualization is able to paint a picture that clearly identifies trends, co
 
 **● Is your presentation accessible to your audience?** 
 Presentation is in a Tableau dashboard format, HTML and also powerpoint.
+
+![](https://github.com/jmcs50/cyclistic_bike_share/blob/main/Dashboard.png)
 <br/>
 <br/>
 ## 6. Top three recommendations 
