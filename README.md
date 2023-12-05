@@ -1,9 +1,9 @@
 # cyclistic_bike_share
 
-## How do annual members and casual riders use Cyclistic bikes differently?
-
-
-#### 1. Business task
+# How do annual members and casual riders use Cyclistic bikes differently?
+<br/>
+<br/>
+## 1. Business task
 Analyze how casual riders are using Cyclistic services to provide visual media opportunities that will influence these riders to become members.
 
 ● **What is the problem you are trying to solve?** 
@@ -11,9 +11,10 @@ How are casual and member riders using Cyclistic services and how can this infor
 
 ● **How can your insights drive business decisions?** 
 Insights can narrow down the best locations, time of year, day of the week and time of day to utilize marketing opportunities to casual riders.
+<br/>
+<br/>
 
-
-#### 2. Description of all data sources used 
+## 2. Description of all data sources used 
 The data being used has been made available by Motivate International Inc. under data license agreement: <https://divvybikes.com/data-license-agreement>. The time frame being analyzed is January 1, 2023 through September 30, 2023.
 
 **● Where is the data located?** 
@@ -44,9 +45,9 @@ The data provide dates, times, stations and member type which are essential to n
 
 **● Are there any problems with the data?** 
 Values are missing from columns such as start_station_name, start_station_id, end_station_name and end_station_id. The started_at and ended_at also contains values where the start date value is after the end date value, which results in a negative trip duration.
-
-
-#### 3. Documentation of any cleaning or manipulation of data
+<br/>
+<br/>
+## 3. Documentation of any cleaning or manipulation of data
 **● What tools are you choosing and why?** 
 I am using R to clean and analyze the data and using Tableau to visualize the data. I picked R as it provided me with the opportunity to use R Markdown and document the steps I took with cleaning and analyzing data. I picked Tableau to visual the data as I was interested in creating a dashboard.
 
@@ -61,9 +62,9 @@ By running the max and min of numeric columns.
 
 **● Have you documented your cleaning process so you can review and share those results?** 
 The cleaning and analysis process has been documented in R Markdown.
-
-
-#### 4. Summary of analysis
+<br/>
+<br/>
+## 4. Summary of analysis
 Both casual riders and member riders prefer to use the Electric bicycle with 5 PM being the most popular time that both rider types use Cyclistic services. Both rider types also enjoy summer time with casual riders and member riders taking the majority of their trips in June, July and August.
 
 Casual riders prefer to use Cyclistic during the weekend with Saturday being the favorite day with 357,669 riders, followed by Sunday with 276,450 riders. Streeter Dr & Grand Ave. and DuSable Lake Shore Dr. & Monroe St. are were the majority of casual riders begin their travels from with 40,966 and 26,464 trips beginning here. DuSable Lake Shore Dr. & North Blvd. is where overwhelmingly casual rider choose to end their trips with 21,637 trips ending at this locations, followed by Wells St. & Concord Ln with 10,214 trips ending there.
@@ -84,9 +85,9 @@ I found that both casual and member riders favor the summer months, 5 pm as thei
 
 **● How will these insights help answer your business questions?** 
 These insights will narrow down the locations and time that marketing opportunities should focus on in order to maximize ROI.
-
-
-#### 5. Supporting visualizations and key findings
+<br/>
+<br/>
+## 5. Supporting visualizations and key findings
 Both casual riders and member riders prefer to use the Electric bicycle with 5 PM being the most popular time that both rider types use Cyclistic services. Both rider types also enjoy summer time with casual riders and member riders taking the majority of their trips in June, July and August.
 
 **● Were you able to answer the question of how annual members and casual riders use Cyclistic bikes differently?** 
@@ -106,9 +107,9 @@ Data Visualization is able to paint a picture that clearly identifies trends, co
 
 **● Is your presentation accessible to your audience?** 
 Presentation is in a Tableau dashboard format, HTML and also powerpoint.
-
-
-#### 6. Top three recommendations 
+<br/>
+<br/>
+## 6. Top three recommendations 
 Marketing strategies to convert casual riders into member riders should focus on:
 
 1. The summer months of June, July and August.
