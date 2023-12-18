@@ -7,10 +7,10 @@
 ## 1. Business task
 Analyze how casual riders are using Cyclistic services to provide visual media opportunities that will influence these riders to become members.
 
-● **What is the problem you are trying to solve?** 
+● **What is the problem you are trying to solve?** <br/>
 How are casual and member riders using Cyclistic services and how can this information be used to provide visual media opportunities to influence causal riders to become members.
 
-● **How can your insights drive business decisions?** 
+● **How can your insights drive business decisions?** <br/>
 Insights can narrow down the best locations, time of year, day of the week and time of day to utilize marketing opportunities to casual riders.
 <br/>
 <br/>
@@ -18,50 +18,50 @@ Insights can narrow down the best locations, time of year, day of the week and t
 ## 2. Description of all data sources used 
 The data being used has been made available by Motivate International Inc. under data license agreement: <https://divvybikes.com/data-license-agreement>. The time frame being analyzed is January 1, 2023 through September 30, 2023.
 
-**● Where is the data located?** 
+**● Where is the data located?** <br/>
 Data is located on local Desktop that was obtained as .csv zip files from https://divvy-tripdata.s3.amazonaws.com/index.html
 
-**● How is the data organized?** 
+**● How is the data organized?** <br/>
 Data for each month is organized into individual months into 13 columns: ride_id, rideable_type, started_at, ended_at, start_station_name, start_station_id, end_station_name, end_station_id, start_lat, start_lng, end_lat, end_lng and member_casual.
 
-**● Are there issues with bias or credibility in this data?** 
+**● Are there issues with bias or credibility in this data?** <br/>
 The original data source can be confirmed, but it is missing some values which
 may be key to answering the question being asked by business. The data
-is current and update to date.
-**Reliability :** Data is incomplete and missing from start station name and end station name. Started at and ended at data's are also inaccurate as for some values the end date or time is before the start date or time.
-**Originality :** Data is being directly collected from Motivate International Inc. under data license agreement: <https://divvybikes.com/data-license-agreement>.
-**Comprehensive :** Dataset contains multiple fields for rideable type, started at date/time, ended at date/time, start station names, end station names and member types.
-**Current :** Data is being updated monthly and date range being analyzed is from January 2023 through end of September 2023.
-**Cited :** Original source is from reliable organization that is directly collecting data.
+is current and update to date.<br/>
+**Reliability :** Data is incomplete and missing from start station name and end station name. Started at and ended at data's are also inaccurate as for some values the end date or time is before the start date or time.<br/>
+**Originality :** Data is being directly collected from Motivate International Inc. under data license agreement: <https://divvybikes.com/data-license-agreement>.<br/>
+**Comprehensive :** Dataset contains multiple fields for rideable type, started at date/time, ended at date/time, start station names, end station names and member types.<br/>
+**Current :** Data is being updated monthly and date range being analyzed is from January 2023 through end of September 2023.<br/>
+**Cited :** Original source is from reliable organization that is directly collecting data.<br/>
 
-**● How are you addressing licensing, privacy, security, and accessibility?** 
+**● How are you addressing licensing, privacy, security, and accessibility?** <br/>
 The data has been made available by Motivate International Inc. under data license agreement:
 <https://divvybikes.com/data-license-agreement> 
 
-**● How did you verify the data's integrity?** 
+**● How did you verify the data's integrity?** <br/>
 By reviewing each month from January 2023 through September 2023.
 
-**● How does it help you answer your question?** 
+**● How does it help you answer your question?** <br/>
 The data provide dates, times, stations and member type which are essential to narrowing down how casual riders are using the Cyclistic service.
 
-**● Are there any problems with the data?** 
+**● Are there any problems with the data?** <br/>
 Values are missing from columns such as start_station_name, start_station_id, end_station_name and end_station_id. The started_at and ended_at also contains values where the start date value is after the end date value, which results in a negative trip duration.
 <br/>
 <br/>
 ## 3. Documentation of any cleaning or manipulation of data
-**● What tools are you choosing and why?** 
+**● What tools are you choosing and why?** <br/>
 I am using R to clean and analyze the data and using Tableau to visualize the data. I picked R as it provided me with the opportunity to use R Markdown and document the steps I took with cleaning and analyzing data. I picked Tableau to visual the data as I was interested in creating a dashboard.
 
-**● Have you ensured your data’s integrity?** 
+**● Have you ensured your data’s integrity?** <br/>
 Yes, I have removed data that did not make sense such as starting times beginning after ending times.
 
-**● What steps have you taken to ensure that your data is clean?** 
+**● What steps have you taken to ensure that your data is clean?** <br/>
 I have reviewed the data type it is saved as and removed data that was incomplete, missing or incorrect such as dates not matching up or negative ride trips lengths.
 
-**● How can you verify that your data is clean and ready to analyze?** 
+**● How can you verify that your data is clean and ready to analyze?** <br/>
 By running the max and min of numeric columns.
 
-**● Have you documented your cleaning process so you can review and share those results?** 
+**● Have you documented your cleaning process so you can review and share those results?** <br/>
 The cleaning and analysis process has been documented in R Markdown.
 <br/>
 <br/>
@@ -72,16 +72,16 @@ Casual riders prefer to use Cyclistic during the weekend with Saturday being the
 
 Member riders like to use Cyclistic during the work week with Thursday being the favorite day with 459,777 riders, but closely followed by Wednesday with 454,737 riders. Member riders favor Wells St. & Concord Ln., Streeter Dr. & Grand Ave. and DuSable Lake Shore Dr. & North Blvd. at their starting locations with 16,987, 14,956 and 13,862 trips starting at these three locations. When it is time to end their trips member riders almost evenly distribute their ending locations between Clinton St. & Washington Blvd with 20,450 trips, Kingsbury St. & Kinzie St. with 20,224 trips and Clark St. & Elm St. with 19,489 trips.
 
-**● How should you organize your data to perform analysis on it?** 
+**● How should you organize your data to perform analysis on it?** <br/>
 Data is combined and organized into columns.
 
-**● Has your data been properly formatted?** 
+**● Has your data been properly formatted?** <br/>
 Data has been properly formatted with column data types corrected to match field values.
 
-**● What surprises did you discover in the data?** 
+**● What surprises did you discover in the data?** <br/>
 The type of data was missing or incorrect. For example the start date of trips beginning after the end dates. I did not expect to see negative values.
 
-**● What trends or relationships did you find in the data?** 
+**● What trends or relationships did you find in the data?** <br/>
 I found that both casual and member riders favor the summer months, 5 pm as their main activity time and Electric bicycles.
 
 **● How will these insights help answer your business questions?** 
